@@ -1,0 +1,456 @@
+{
+  "scenario": "brand_new_user_no_follows_no_interests",
+  "description": "Synthetic test data for a new user with no followed creators, no declared interests, and no interaction history.",
+  "user_id": "user_new_001",
+  "user_features": {
+    "topic_weights": {},
+    "recent_creator_engagement": {},
+    "impressions_count": 0,
+    "positive_actions_count": 0,
+    "days_since_signup": 0
+  },
+  "candidates": [
+    {
+      "post_id": "new_001",
+      "creator_id": "creator_11",
+      "topics": [
+        "education"
+      ],
+      "age_hours": 2,
+      "likes": 91,
+      "saves": 27,
+      "impressions": 190,
+      "comments": 18,
+      "shares": 15,
+      "is_followed": false,
+      "source": "trending",
+      "creator_engagement_score": 0.0,
+      "source_probability": null,
+      "quality_signals": {
+        "hide_count": 0,
+        "report_count": 0,
+        "borderline_moderation_score": 0.0
+      }
+    },
+    {
+      "post_id": "new_002",
+      "creator_id": "creator_12",
+      "topics": [
+        "technology"
+      ],
+      "age_hours": 5,
+      "likes": 87,
+      "saves": 26,
+      "impressions": 280,
+      "comments": 17,
+      "shares": 14,
+      "is_followed": false,
+      "source": "trending",
+      "creator_engagement_score": 0.0,
+      "source_probability": null,
+      "quality_signals": {
+        "hide_count": 0,
+        "report_count": 0,
+        "borderline_moderation_score": 0.0
+      }
+    },
+    {
+      "post_id": "new_003",
+      "creator_id": "creator_13",
+      "topics": [
+        "food"
+      ],
+      "age_hours": 8,
+      "likes": 83,
+      "saves": 25,
+      "impressions": 370,
+      "comments": 16,
+      "shares": 13,
+      "is_followed": false,
+      "source": "trending",
+      "creator_engagement_score": 0.0,
+      "source_probability": null,
+      "quality_signals": {
+        "hide_count": 0,
+        "report_count": 0,
+        "borderline_moderation_score": 0.0
+      }
+    },
+    {
+      "post_id": "new_004",
+      "creator_id": "creator_14",
+      "topics": [
+        "health"
+      ],
+      "age_hours": 12,
+      "likes": 79,
+      "saves": 24,
+      "impressions": 460,
+      "comments": 15,
+      "shares": 12,
+      "is_followed": false,
+      "source": "trending",
+      "creator_engagement_score": 0.0,
+      "source_probability": null,
+      "quality_signals": {
+        "hide_count": 0,
+        "report_count": 0,
+        "borderline_moderation_score": 0.0
+      }
+    },
+    {
+      "post_id": "new_005",
+      "creator_id": "creator_15",
+      "topics": [
+        "sports"
+      ],
+      "age_hours": 16,
+      "likes": 75,
+      "saves": 23,
+      "impressions": 550,
+      "comments": 14,
+      "shares": 11,
+      "is_followed": false,
+      "source": "trending",
+      "creator_engagement_score": 0.0,
+      "source_probability": null,
+      "quality_signals": {
+        "hide_count": 0,
+        "report_count": 0,
+        "borderline_moderation_score": 0.0
+      }
+    },
+    {
+      "post_id": "new_006",
+      "creator_id": "creator_16",
+      "topics": [
+        "science"
+      ],
+      "age_hours": 20,
+      "likes": 71,
+      "saves": 22,
+      "impressions": 640,
+      "comments": 13,
+      "shares": 10,
+      "is_followed": false,
+      "source": "trending",
+      "creator_engagement_score": 0.0,
+      "source_probability": null,
+      "quality_signals": {
+        "hide_count": 0,
+        "report_count": 0,
+        "borderline_moderation_score": 0.0
+      }
+    },
+    {
+      "post_id": "new_007",
+      "creator_id": "creator_17",
+      "topics": [
+        "travel"
+      ],
+      "age_hours": 26,
+      "likes": 67,
+      "saves": 21,
+      "impressions": 730,
+      "comments": 12,
+      "shares": 9,
+      "is_followed": false,
+      "source": "trending",
+      "creator_engagement_score": 0.0,
+      "source_probability": null,
+      "quality_signals": {
+        "hide_count": 0,
+        "report_count": 0,
+        "borderline_moderation_score": 0.0
+      }
+    },
+    {
+      "post_id": "new_008",
+      "creator_id": "creator_18",
+      "topics": [
+        "art"
+      ],
+      "age_hours": 31,
+      "likes": 63,
+      "saves": 20,
+      "impressions": 820,
+      "comments": 11,
+      "shares": 8,
+      "is_followed": false,
+      "source": "trending",
+      "creator_engagement_score": 0.0,
+      "source_probability": null,
+      "quality_signals": {
+        "hide_count": 0,
+        "report_count": 0,
+        "borderline_moderation_score": 0.0
+      }
+    },
+    {
+      "post_id": "new_009",
+      "creator_id": "creator_19",
+      "topics": [
+        "cooking",
+        "education"
+      ],
+      "age_hours": 3,
+      "likes": 59,
+      "saves": 19,
+      "impressions": 910,
+      "comments": 10,
+      "shares": 7,
+      "is_followed": false,
+      "source": "exploration",
+      "creator_engagement_score": 0.0,
+      "source_probability": 0.077,
+      "quality_signals": {
+        "hide_count": 0,
+        "report_count": 0,
+        "borderline_moderation_score": 0.0
+      }
+    },
+    {
+      "post_id": "new_010",
+      "creator_id": "creator_20",
+      "topics": [
+        "environment",
+        "education"
+      ],
+      "age_hours": 6,
+      "likes": 55,
+      "saves": 18,
+      "impressions": 1000,
+      "comments": 9,
+      "shares": 6,
+      "is_followed": false,
+      "source": "exploration",
+      "creator_engagement_score": 0.0,
+      "source_probability": 0.08,
+      "quality_signals": {
+        "hide_count": 0,
+        "report_count": 0,
+        "borderline_moderation_score": 0.0
+      }
+    },
+    {
+      "post_id": "new_011",
+      "creator_id": "creator_21",
+      "topics": [
+        "business"
+      ],
+      "age_hours": 9,
+      "likes": 51,
+      "saves": 17,
+      "impressions": 1090,
+      "comments": 8,
+      "shares": 5,
+      "is_followed": false,
+      "source": "exploration",
+      "creator_engagement_score": 0.0,
+      "source_probability": 0.083,
+      "quality_signals": {
+        "hide_count": 0,
+        "report_count": 0,
+        "borderline_moderation_score": 0.0
+      }
+    },
+    {
+      "post_id": "new_012",
+      "creator_id": "creator_22",
+      "topics": [
+        "photography"
+      ],
+      "age_hours": 14,
+      "likes": 47,
+      "saves": 16,
+      "impressions": 1180,
+      "comments": 7,
+      "shares": 4,
+      "is_followed": false,
+      "source": "exploration",
+      "creator_engagement_score": 0.0,
+      "source_probability": 0.086,
+      "quality_signals": {
+        "hide_count": 0,
+        "report_count": 0,
+        "borderline_moderation_score": 0.0
+      }
+    },
+    {
+      "post_id": "new_013",
+      "creator_id": "creator_23",
+      "topics": [
+        "language"
+      ],
+      "age_hours": 18,
+      "likes": 43,
+      "saves": 15,
+      "impressions": 1270,
+      "comments": 6,
+      "shares": 3,
+      "is_followed": false,
+      "source": "exploration",
+      "creator_engagement_score": 0.0,
+      "source_probability": 0.089,
+      "quality_signals": {
+        "hide_count": 0,
+        "report_count": 0,
+        "borderline_moderation_score": 0.0
+      }
+    },
+    {
+      "post_id": "new_014",
+      "creator_id": "creator_24",
+      "topics": [
+        "fitness"
+      ],
+      "age_hours": 22,
+      "likes": 39,
+      "saves": 14,
+      "impressions": 1360,
+      "comments": 5,
+      "shares": 2,
+      "is_followed": false,
+      "source": "exploration",
+      "creator_engagement_score": 0.0,
+      "source_probability": 0.092,
+      "quality_signals": {
+        "hide_count": 0,
+        "report_count": 0,
+        "borderline_moderation_score": 0.0
+      }
+    },
+    {
+      "post_id": "new_015",
+      "creator_id": "creator_25",
+      "topics": [
+        "history"
+      ],
+      "age_hours": 28,
+      "likes": 35,
+      "saves": 13,
+      "impressions": 1450,
+      "comments": 4,
+      "shares": 1,
+      "is_followed": false,
+      "source": "exploration",
+      "creator_engagement_score": 0.0,
+      "source_probability": 0.095,
+      "quality_signals": {
+        "hide_count": 0,
+        "report_count": 0,
+        "borderline_moderation_score": 0.0
+      }
+    },
+    {
+      "post_id": "new_016",
+      "creator_id": "creator_26",
+      "topics": [
+        "parenting"
+      ],
+      "age_hours": 35,
+      "likes": 31,
+      "saves": 12,
+      "impressions": 1540,
+      "comments": 3,
+      "shares": 1,
+      "is_followed": false,
+      "source": "exploration",
+      "creator_engagement_score": 0.0,
+      "source_probability": 0.098,
+      "quality_signals": {
+        "hide_count": 0,
+        "report_count": 0,
+        "borderline_moderation_score": 0.0
+      }
+    },
+    {
+      "post_id": "new_017",
+      "creator_id": "creator_27",
+      "topics": [
+        "design"
+      ],
+      "age_hours": 41,
+      "likes": 27,
+      "saves": 11,
+      "impressions": 1630,
+      "comments": 2,
+      "shares": 1,
+      "is_followed": false,
+      "source": "exploration",
+      "creator_engagement_score": 0.0,
+      "source_probability": 0.101,
+      "quality_signals": {
+        "hide_count": 0,
+        "report_count": 0,
+        "borderline_moderation_score": 0.0
+      }
+    },
+    {
+      "post_id": "new_018",
+      "creator_id": "creator_28",
+      "topics": [
+        "finance"
+      ],
+      "age_hours": 47,
+      "likes": 23,
+      "saves": 10,
+      "impressions": 1720,
+      "comments": 1,
+      "shares": 1,
+      "is_followed": false,
+      "source": "exploration",
+      "creator_engagement_score": 0.0,
+      "source_probability": 0.104,
+      "quality_signals": {
+        "hide_count": 0,
+        "report_count": 0,
+        "borderline_moderation_score": 0.0
+      }
+    },
+    {
+      "post_id": "new_019",
+      "creator_id": "creator_29",
+      "topics": [
+        "community"
+      ],
+      "age_hours": 52,
+      "likes": 19,
+      "saves": 9,
+      "impressions": 1810,
+      "comments": 1,
+      "shares": 1,
+      "is_followed": false,
+      "source": "exploration",
+      "creator_engagement_score": 0.0,
+      "source_probability": 0.107,
+      "quality_signals": {
+        "hide_count": 0,
+        "report_count": 0,
+        "borderline_moderation_score": 0.0
+      }
+    },
+    {
+      "post_id": "new_020",
+      "creator_id": "creator_30",
+      "topics": [
+        "culture"
+      ],
+      "age_hours": 60,
+      "likes": 15,
+      "saves": 8,
+      "impressions": 1900,
+      "comments": 1,
+      "shares": 1,
+      "is_followed": false,
+      "source": "exploration",
+      "creator_engagement_score": 0.0,
+      "source_probability": 0.11,
+      "quality_signals": {
+        "hide_count": 0,
+        "report_count": 0,
+        "borderline_moderation_score": 0.0
+      }
+    }
+  ]
+}

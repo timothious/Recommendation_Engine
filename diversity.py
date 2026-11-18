@@ -22,41 +22,31 @@ def violates_diversity(
     the allowed number of consecutive posts from one creator
     or one topic.
     """
-    if len(selected_posts) < 2:
-        return False
-
-    previous_two = selected_posts[-2:]
-
     candidate_creator = candidate.get("creator_id")
     candidate_topics = candidate.get("topics", [])
 
-    # Check creator repetition.
-    same_creator = all(
-        post.get("creator_id") == candidate_creator
-        for post in previous_two
-    )
+    max_creator = max(1, int(config.MAX_CONSECUTIVE_SAME_CREATOR))
+    max_topic = max(1, int(config.MAX_CONSECUTIVE_SAME_TOPIC))
 
-    if (
-        same_creator
-        and config.MAX_CONSECUTIVE_SAME_CREATOR == 2
-    ):
-        return True
-
-    # Check topic repetition.
-    same_topic = all(
-        has_same_topic(
-            post.get("topics", []),
-            candidate_topics,
+    # Adding this candidate would make (max_creator) previous matches
+    # plus itself = max_creator + 1 consecutive, which is not allowed.
+    if len(selected_posts) >= max_creator:
+        previous_creators = selected_posts[-max_creator:]
+        same_creator = all(
+            post.get("creator_id") == candidate_creator
+            for post in previous_creators
         )
-        for post in previous_two
-    )
+        if same_creator:
+            return True
 
-    if (
-        candidate_topics
-        and same_topic
-        and config.MAX_CONSECUTIVE_SAME_TOPIC == 2
-    ):
-        return True
+    if candidate_topics and len(selected_posts) >= max_topic:
+        previous_topics = selected_posts[-max_topic:]
+        same_topic = all(
+            has_same_topic(post.get("topics", []), candidate_topics)
+            for post in previous_topics
+        )
+        if same_topic:
+            return True
 
     return False
 
